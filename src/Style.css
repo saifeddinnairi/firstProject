@@ -91,19 +91,33 @@ body{
     width: 200px !important;
 }
 .card-item {
-    height: 400px !important;
+    height: 450px !important;
     display: flex !important;
     width: 300px !important;
     flex-direction: column !important;
     align-items: center;
     justify-content: space-around;
+   
 }
 .card-body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+ 
+
 }
 .card-item button{
     width: 250px !important;
     align-self: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2vw;
+    padding: 5px 0;
+}
+.button-container button{
+    width: 40px !important;
 }
